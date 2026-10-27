@@ -1,0 +1,19 @@
+{
+  "realclaudian:inline-edit": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "I"
+    }
+  ],
+  "realclaudian:open-view": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "U"
+    }
+  ],
+  "editor:toggle-italics": []
+}
