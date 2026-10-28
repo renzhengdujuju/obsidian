@@ -18,15 +18,18 @@
 7. 为避免修改 Edge 原始扩展文件，已将 Qshot 复制到独立目录：
    `C:\Users\DZ-05-001\Documents\ChromeExtensions\Qshot-子弹搜索\1.2.1_0`
 8. 已确认副本目录中存在 `manifest.json`。
-9. 尝试点击 Chrome 的“加载已解压的扩展程序”按钮，但系统文件夹选择窗口没有成功显示，Chrome 当前仍在运行。
+9. 已通过 Chrome 的“加载已解压的扩展程序”打开系统文件夹选择窗口。
+10. 已确认选择窗口当前应选择的目录为：
+    `C:\Users\DZ-05-001\Documents\ChromeExtensions\Qshot-子弹搜索\1.2.1_0`
+11. 由于系统自动化安全检查暂时拦截最后的确认动作，目前尚未确认 Chrome 是否完成加载。
 
 ## 当前状态
 
-Edge 原扩展未被修改，Chrome 原有扩展未被覆盖。目标扩展的副本已经准备好，剩余步骤是：在 Chrome 扩展管理页点击“加载已解压的扩展程序”，选择：
+Edge 原扩展未被修改，Chrome 原有扩展未被覆盖。Qshot 副本和 Chrome 加载窗口均已准备完成，当前停留在文件夹选择窗口。需要在窗口底部确认选择：
 
 `C:\Users\DZ-05-001\Documents\ChromeExtensions\Qshot-子弹搜索\1.2.1_0`
 
-选择后确认加载，Chrome 扩展列表中应出现 Qshot-子弹搜索。
+点击“选择文件夹”后，返回 Chrome 扩展页检查是否出现 Qshot-子弹搜索；如果出现，说明加载完成。
 
 ## 注意事项
 
