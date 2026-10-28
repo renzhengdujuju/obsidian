@@ -8,31 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d926b11a0b4119ac",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "实习/day-2-3.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "day-2-3"
-            }
-          },
-          {
             "id": "8dabef6e08d123e1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "实习/day2.md",
+                "file": "实习/day3.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "day2"
+              "title": "day3"
             }
           }
         ]
@@ -223,30 +209,34 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "bases:新建数据库": false,
-      "realclaudian:Open Claudian": false
+      "realclaudian:Open Claudian": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d926b11a0b4119ac",
+  "active": "07e172dd8b46ed4e",
   "lastOpenFiles": [
+    "实习/day3.md.tmp.18916.876ec5370261",
+    "实习/day2-2.md",
+    "实习/day3.md",
+    "Daily-Log/report-day2.md",
+    "Daily-Log/report-day1.md",
+    "实习/day2-1.md",
+    "实习/day1.md",
+    "实习/day2.md",
+    "实习/Assets/Pasted image 20261027140813.png",
+    "欢迎.md",
+    "实习/day-2-3.md",
     "实习/Assets/Pasted image 20261027180529.png",
     "实习/Assets/Pasted image 20261027180504.png",
     "实习/Assets",
-    "实习/day2-2.md",
-    "实习/day-2-3.md",
-    "实习/day2-1.md",
-    "实习/day2.md",
-    "Daily-Log/report-day1.md",
-    "Pasted image 20261027140813.png",
     "实习/day2 1.md",
-    "day1.md",
-    "欢迎.md",
     "未命名.md",
-    "Pasted image 20261027131325.png",
-    "Pasted image 20261027131147.png",
+    "实习/Assets/Pasted image 20261027131325.png",
+    "实习/Assets/Pasted image 20261027131147.png",
     "Daily-Log",
-    "Pasted image 20261026165711.png",
-    "Pasted image 20261026170847.png",
-    "Pasted image 20261026171239.png",
+    "实习/Assets/Pasted image 20261026165711.png",
+    "实习/Assets/Pasted image 20261026170847.png",
+    "实习/Assets/Pasted image 20261026171239.png",
     "实习"
   ]
 }
