@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "实习/day3-4.md",
+                "file": "实习/day4.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "day3-4"
+              "title": "day4"
             }
           }
         ]
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "实习/day3-4.md",
+                "file": "实习/day4.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -215,8 +215,9 @@
   },
   "active": "8dabef6e08d123e1",
   "lastOpenFiles": [
-    "实习/day3-3.md",
     "实习/day3-4.md",
+    "实习/day4.md",
+    "实习/day3-3.md",
     "实习/day3-2.md",
     "实习/day3-1.md",
     "实习/day3.md",
