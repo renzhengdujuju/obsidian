@@ -37,8 +37,10 @@
       "loadUserSettings": true,
       "enableChrome": false,
       "visibleModels": [
-        "sonnet",
-        "opus"
+        "haiku",
+        "opus",
+        "fable",
+        "sonnet"
       ],
       "modelAliases": {},
       "environmentVariables": "",
@@ -47,9 +49,23 @@
       "selectedModels": [
         {
           "value": "opus",
-          "label": "gpt-6.1-sol",
+          "label": "glm-5.3",
           "description": "Custom Opus model (1M context)",
           "resolvedModel": "claude-opus-5",
+          "reasoningMetadataResolved": true,
+          "supportedEffortLevels": [
+            "low",
+            "medium",
+            "high",
+            "xhigh",
+            "max"
+          ]
+        },
+        {
+          "value": "fable",
+          "label": "gpt-6.1-sol",
+          "description": "Custom Fable model",
+          "resolvedModel": "claude-fable-5",
           "reasoningMetadataResolved": true,
           "supportedEffortLevels": [
             "low",
@@ -72,6 +88,14 @@
             "xhigh",
             "max"
           ]
+        },
+        {
+          "value": "haiku",
+          "label": "glm-5.3",
+          "description": "Custom Haiku model",
+          "resolvedModel": "claude-haiku-4-5",
+          "reasoningMetadataResolved": true,
+          "supportedEffortLevels": []
         }
       ]
     },
@@ -216,8 +240,12 @@
     "model": "deepseek:deepseek-account/deepseek-flash"
   },
   "inlineEditModel": null,
-  "savedProviderModel": {},
-  "savedProviderEffort": {},
+  "savedProviderModel": {
+    "claude": "haiku"
+  },
+  "savedProviderEffort": {
+    "claude": "high"
+  },
   "savedProviderServiceTier": {},
   "savedProviderPermissionMode": {
     "claude": "auto"

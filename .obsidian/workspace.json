@@ -188,7 +188,7 @@
                       "conversationId": "conv-1793610943546-lstspji0d"
                     }
                   ],
-                  "activeTabId": "tab-1793610897079-4bzwudm"
+                  "activeTabId": "tab-1793086221586-9sjpsxf"
                 }
               },
               "icon": "bot",
@@ -218,8 +218,13 @@
   },
   "active": "107cf2db5893c7df",
   "lastOpenFiles": [
-    "实习总览.md",
+    "1-项目/SSL证书自动续签/执行方案-乐此加密.md",
     "1-项目/SSL证书自动续签/备选方案-阿里云RAM角色.md",
+    "实习总览.md.tmp.27928.393a77a9807c",
+    "实习总览.md.tmp.27928.565cb3f2f24d",
+    "1-项目/SSL证书自动续签/备选方案-阿里云RAM角色.md.tmp.27928.297b9a870682",
+    "1-项目/SSL证书自动续签/从域名验证到证书认证-完整闭环梳理.md.tmp.27928.9891c7415a62",
+    "实习总览.md",
     "3-资源/Nginx与Web运维/Nginx-负载均衡健康检查与Session保持实验.md",
     "3-资源/Nginx与Web运维/phpMyAdmin-502故障排查与修复记录.md",
     "3-资源/Nginx与Web运维/phpMyAdmin-故障排查思路分层.md",
@@ -233,7 +238,6 @@
     "4-归档/SSL续签历史调研/SSL证书自动续签方案调研.md",
     "4-归档/SSL续签历史调研/acme.sh-ECS-RAM角色方案-早期版.md",
     "4-归档/SSL续签历史调研/acme.sh-阿里云DNS-AK方案.md",
-    "1-项目/SSL证书自动续签/执行方案-乐此加密.md",
     "1-项目/SSL证书自动续签/从域名验证到证书认证-完整闭环梳理.md",
     "面试简历/面试简历筛选结果.md",
     "2026-11-02.md",
@@ -245,18 +249,13 @@
     "1-项目/SSL证书自动续签/CNAME委派验证原理.md",
     "实习总览.md.tmp.3456.cb0efc70bb5f",
     "实习总览.md.tmp.3456.f7bb4e6b662c",
-    "3-资源/Nginx与Web运维/从域名验证到证书认证-完整闭环梳理.md.tmp.3456.e4a169b02410",
     "1-项目/SSL证书自动续签/环境信息收集清单.md",
     "1-项目/SSL证书自动续签/方案决策与待确认问题.md",
     "3-资源/办公与工具/RaiDrive-云端文件管理实验记录.md",
-    "实习总览.md.tmp.17400.b2cb73d8a70f",
-    "4-归档/旧版本",
-    "4-归档/SSL续签历史调研",
     "3-资源/附件/Pasted image 20261102112026.png",
     "3-资源/附件/Pasted image 20261102003407.png",
     "3-资源/附件/Pasted image 20261102003345.png",
     "3-资源/办公与工具/Edge-扩展迁移到Chrome.md",
-    "3-资源/办公与工具/开源自托管项目清单.md",
     "3-资源/附件/Pasted image 20261027140813.png",
     "实习/Assets/Pasted image 20261027180529.png",
     "实习/Assets/Pasted image 20261027180504.png",
