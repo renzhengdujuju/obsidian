@@ -94,17 +94,85 @@
       "selectedModels": []
     },
     "deepseek": {
-      "enabled": false,
+      "enabled": true,
       "codeMode": false,
       "presetPlugins": "",
       "cliPath": "",
       "cliPathsByHost": {},
       "environmentVariables": "",
       "environmentHash": "",
-      "visibleModels": [],
-      "modelAliases": {},
+      "visibleModels": [
+        "deepseek:deepseek-account/deepseek-flash",
+        "deepseek:deepseek-account/deepseek-v4-pro"
+      ],
+      "modelAliases": {
+        "deepseek:deepseek-account/deepseek-flash": "V4.1-Flash",
+        "deepseek:deepseek-account/deepseek-v4-pro": "V4-PRO"
+      },
       "preferredReasoningByModel": {},
-      "selectedModels": []
+      "selectedModels": [
+        {
+          "encodedId": "deepseek:deepseek-account/deepseek-flash",
+          "provider": "deepseek-account",
+          "providerName": "DeepSeek Account",
+          "id": "deepseek-flash",
+          "label": "DeepSeek-V4.1-Flash",
+          "reasoning": [
+            {
+              "id": "off",
+              "name": "Off",
+              "description": "Use for simple tasks that do not need reasoning."
+            },
+            {
+              "id": "low",
+              "name": "Low",
+              "description": "Prefer for routine or latency-sensitive tasks."
+            },
+            {
+              "id": "high",
+              "name": "High",
+              "description": "The default balance for most tasks."
+            },
+            {
+              "id": "max",
+              "name": "Max",
+              "description": "Reserve for the hardest quality-first tasks."
+            }
+          ],
+          "available": true
+        },
+        {
+          "encodedId": "deepseek:deepseek-account/deepseek-v4-pro",
+          "provider": "deepseek-account",
+          "providerName": "DeepSeek Account",
+          "id": "deepseek-v4-pro",
+          "label": "DeepSeek-V4-Pro",
+          "reasoning": [
+            {
+              "id": "off",
+              "name": "Off",
+              "description": "Use for simple tasks that do not need reasoning."
+            },
+            {
+              "id": "low",
+              "name": "Low",
+              "description": "Prefer for routine or latency-sensitive tasks."
+            },
+            {
+              "id": "high",
+              "name": "High",
+              "description": "The default balance for most tasks."
+            },
+            {
+              "id": "max",
+              "name": "Max",
+              "description": "Reserve for the hardest quality-first tasks."
+            }
+          ],
+          "description": "Stronger agentic coding, knowledge, and difficult reasoning; suited to complex or quality-critical tasks at higher cost.",
+          "available": true
+        }
+      ]
     },
     "grok": {
       "cliPath": "",
@@ -144,8 +212,8 @@
   },
   "settingsProvider": "claude",
   "lastSelectedChatModel": {
-    "providerId": "claude",
-    "model": "opus"
+    "providerId": "deepseek",
+    "model": "deepseek:deepseek-account/deepseek-v4-pro"
   },
   "inlineEditModel": null,
   "savedProviderModel": {},
