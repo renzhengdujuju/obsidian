@@ -143,7 +143,10 @@
     }
   },
   "settingsProvider": "claude",
-  "lastSelectedChatModel": null,
+  "lastSelectedChatModel": {
+    "providerId": "claude",
+    "model": "opus"
+  },
   "inlineEditModel": null,
   "savedProviderModel": {},
   "savedProviderEffort": {},
