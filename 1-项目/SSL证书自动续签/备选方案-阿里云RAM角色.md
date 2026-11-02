@@ -20,71 +20,15 @@
 
   
 
-## 0. 一页结论（给老板看）
-
-  
-
-| 项目 | 内容 |
-
-|------|------|
-
-| 方案 | ECS 绑定 RAM 角色 + STS 临时凭证 + acme.sh + Let's Encrypt |
-
-| 证书费用 | **0 元** |
-
-| 工具费用 | **0 元**（acme.sh、aliyun CLI、Let's Encrypt 都免费） |
-
-| 是否用阿里云账号 | **是**。但续签全自动，不需要人工登录控制台 |
-
-| 服务器是否保存长期 AccessKey | **否**。每次续签从 ECS 元数据服务获取 STS 临时凭证 |
-
-| 自动续期 | 每天 cron 检查，到期前约 30 天自动续签，自动 reload Nginx |
-
-| 主要前提 | 域名 DNS 与 ECS 同账号；ECS 是 VPC；RAM 有建角色/绑 ECS 权限；**删除现有 `_acme-challenge` CNAME** |
-
-| 与乐此相比 | 免费、自主可控、无第三方；但部署更复杂，且仍依赖阿里云账号 |
-
-  
-
-**一句话**：这条方案不花一分钱，但要动阿里云账号的 RAM 角色和 DNS；配置一次之后，续签全自动。
-
-  
 
 ---
 
   
 
-## 1. 两个方案对比（老板选型用）
 
   
 
-| 维度 | 乐此加密 | 阿里云 RAM 角色 + acme.sh |
-
-|------|---------|--------------------------|
-
-| 证书费用 | 免费 | **免费** |
-
-| 自动续期费用 | **约 ¥30 一次性买断** | **0 元** |
-
-| 续签时是否调用阿里云 | 不调用（只保留一条 CNAME） | **调用阿里云 DNS API** |
-
-| 是否依赖第三方平台 | 是（letsssl.cn 及其客户端） | 否 |
-
-| 私钥控制 | 需确认本地生成/复用还是平台下发 | **本地生成，自己保管** |
-
-| 安全模型 | CNAME 验证权委托给第三方；客户端 root 运行 | RAM 角色只给 Alidns 权限；STS 临时凭证；无长期 AK |
-
-| 部署难度 | 低（平台 + 客户端，约 30–60 分钟） | 中高（角色 + CLI + 插件，约 2–4 小时） |
-
-| 日常维护 | 低 | 低（cron 自动） |
-
-| 出问题排查 | 看平台面板和客户端日志 | 看 acme.sh 日志、CLI、RAM 权限 |
-
-| 适合 | 想最快上线、续签完全不碰阿里云、接受 ¥30 和第三方 | 必须 0 成本、要自主可控、有阿里云账号权限 |
-
-  
-
-### 选型建议
+## 1.选型建议
 
   
 
@@ -152,77 +96,13 @@ ECS 实例
 
   
 
-### 2.3 关键前提：必须删掉乐此的 CNAME
-
-  
-
-如果 `_acme-challenge.ff.example.com` 上还有 CNAME（指向 `cname.letsssl.cn`）：
-
-  
-
-- DNS 规定 CNAME 不能和 TXT 同名共存；
-
-- 阿里云会拒绝添加 TXT，或者解析时 CNAME 优先，Let's Encrypt 看不到你写的 TXT；
-
-- 结果是 acme.sh 验证必失败。
-
-  
-
-所以执行本方案前必须：
-
-  
-
-1. 确认乐此加密不再使用（或接受它以后不能自动续期）；
-
-2. 删除 `_acme-challenge.ff` 的 CNAME；
-
-3. 等 10–30 分钟（TTL 生效）；
-
-4. `dig` 确认 CNAME 已消失；
-
-5. 再执行 acme.sh 签发。
-
-  
-
-> 删 CNAME 不会让已签发的证书立刻失效，证书会用到到期日；只是乐此以后续不了。
-
+### 
   
 
 ---
 
   
 
-## 3. 前置条件与确认清单
-
-  
-
-| # | 确认项 | 怎么查 | 不满足时 |
-
-|---|--------|--------|---------|
-
-| 1 | 域名 DNS zone 与 ECS 在同一个阿里云账号 | 阿里云 DNS 控制台看域名；ECS 控制台看实例 | 跨账号无法直接用 ECS 角色，见第 6 节 |
-
-| 2 | ECS 是 VPC 网络 | ECS 实例详情 → 网络类型 | 经典网络不支持实例 RAM 角色 |
-
-| 3 | RAM 子账号能创建角色、创建策略、绑定 ECS | RAM 控制台看授权，或直接试 | 让主账号操作，见第 6 节 |
-
-| 4 | 服务器有 root/SSH 权限 | 直接登录 | 没有就无法安装 |
-
-| 5 | 服务器能访问阿里云 API 和 Let's Encrypt | `curl -I https://acme-v02.api.letsencrypt.org` | 配代理/白名单 |
-
-| 6 | 已安装或能安装 `jq` | `jq --version` | `yum install -y jq` / `apt install -y jq` |
-
-| 7 | 阿里云 CLI 版本 ≥ 3.3.0 | `aliyun version` | 升级/重装 |
-
-| 8 | Nginx 路径、证书路径、reload 命令 | `nginx -T \| grep ssl_certificate` | 记录后填入 |
-
-| 9 | 证书部署到哪几台服务器 | 看资产表/DNS 记录 | 每台终止 TLS 的服务器都要处理 |
-
-| 10 | 现有 `_acme-challenge` CNAME 是否还能删 | `dig +short CNAME _acme-challenge.ff.example.com` | 先和老板确认乐此是否停用 |
-
-| 11 | 现有证书是否已备份 | 见 4.0 | 先备份再动手 |
-
-| 12 | 目标 FQDN 和泛域名范围 | DNS 控制台 + 业务确认 | 泛域名不覆盖三级域名 |
 
   
 
@@ -422,19 +302,6 @@ aliyun configure --mode EcsRamRole --profile EcsAutoSslRenew
 
   
 
-按提示填写：
-
-  
-
-| 提示 | 填写 |
-
-|------|------|
-
-| Ecs Ram Role | `EcsAutoSslRenew`（留空则自动发现实例角色） |
-
-| Default Region Id | `cn-hangzhou` |
-
-| Default Output Format | `json` |
 
   
 
