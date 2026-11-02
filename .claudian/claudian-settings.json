@@ -213,7 +213,7 @@
   "settingsProvider": "claude",
   "lastSelectedChatModel": {
     "providerId": "deepseek",
-    "model": "deepseek:deepseek-account/deepseek-v4-pro"
+    "model": "deepseek:deepseek-account/deepseek-flash"
   },
   "inlineEditModel": null,
   "savedProviderModel": {},
