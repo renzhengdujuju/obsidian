@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "f6bbf4d9a13dd630",
+        "id": "f5567676b6b1c385",
         "type": "tabs",
         "children": [
           {
-            "id": "8dabef6e08d123e1",
+            "id": "37cef0ddb42e779b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "实习/day6-6.md",
+                "file": "1-项目/SSL证书自动续签/环境信息收集清单.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "day6-6"
+              "title": "环境信息收集清单"
             }
           }
         ]
@@ -161,9 +161,9 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "实习/day6-6.md",
+                "file": "1-项目/SSL证书自动续签/环境信息收集清单.md",
                 "followCursor": false,
-                "showSearch": false,
+                "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
@@ -181,9 +181,7 @@
                   "openTabs": [
                     {
                       "tabId": "tab-1793086221586-9sjpsxf",
-                      "conversationId": null,
-                      "draftModel": "sonnet",
-                      "providerId": "claude"
+                      "conversationId": "conv-1793599320743-v1t0atkvj"
                     }
                   ],
                   "activeTabId": "tab-1793086221586-9sjpsxf"
@@ -194,7 +192,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -213,47 +211,53 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8dabef6e08d123e1",
+  "active": "37cef0ddb42e779b",
   "lastOpenFiles": [
-    "实习/day6-7.md",
-    "实习/day6-6.md",
-    "实习/day6-5.md",
-    "实习/day6-4.md",
-    "实习/Assets/Pasted image 20261102112026.png",
-    "实习/Assets/Pasted image 20261102003407.png",
-    "实习/Assets/Pasted image 20261102003345.png",
-    "实习/day6-3.md",
-    "实习/day6-1.md",
-    "实习/day6.md",
-    "实习/day4-3.md",
-    "实习/day5.md",
-    "实习/day5-1.md",
-    "实习/day5-2.md",
-    "实习/day4-2.md",
-    "实习/day4-1.md",
-    "实习/day4.md",
-    "实习/day3-4.md",
-    "实习/day3-3.md",
-    "实习/day3-2.md",
-    "实习/day3-1.md",
-    "实习/day3.md",
-    "实习/day2-2.md",
-    "实习/day3.md.tmp.18916.876ec5370261",
-    "Daily-Log/report-day2.md",
-    "Daily-Log/report-day1.md",
-    "实习/day2-1.md",
-    "实习/day1.md",
-    "实习/day2.md",
-    "实习/Assets/Pasted image 20261027140813.png",
-    "欢迎.md",
+    "实习总览.md",
+    "1-项目/SSL证书自动续签/方案决策与待确认问题.md",
+    "3-资源/系统与硬件/RTL8127-万兆网卡驱动编译实战.md",
+    "1-项目/SSL证书自动续签/环境信息收集清单.md",
+    "3-资源/办公与工具/RaiDrive-云端文件管理实验记录.md",
+    "实习总览.md.tmp.17400.b2cb73d8a70f",
+    "4-归档/旧版本",
+    "4-归档/SSL续签历史调研",
+    "4-归档",
+    "3-资源/附件",
+    "3-资源/办公与工具",
+    "3-资源/系统与硬件",
+    "3-资源/GitLab与容器化",
+    "3-资源/Nginx与Web运维",
+    "3-资源",
+    "3-资源/系统与硬件/Windows11-重装指南.md",
+    "1-项目/SSL证书自动续签/备选方案-阿里云RAM角色.md",
+    "1-项目/SSL证书自动续签/执行方案-乐此加密.md",
+    "3-资源/附件/Pasted image 20261102112026.png",
+    "3-资源/附件/Pasted image 20261102003407.png",
+    "3-资源/附件/Pasted image 20261102003345.png",
+    "1-项目/SSL证书自动续签/CNAME委派验证原理.md",
+    "4-归档/SSL续签历史调研/SSL证书自动续签方案调研.md",
+    "4-归档/SSL续签历史调研/acme.sh-ECS-RAM角色方案-早期版.md",
+    "4-归档/旧版本/RTL8127-驱动安装指南-CentOS定制包版.md",
+    "4-归档/旧版本/RTL8127-驱动适配实战记录-v1.md",
+    "4-归档/SSL续签历史调研/acme.sh-阿里云DNS-AK方案.md",
+    "3-资源/GitLab与容器化/GitLab-对接RustFS对象存储.md",
+    "3-资源/GitLab与容器化/GitLab-Runner-Docker部署与排错.md",
+    "3-资源/Nginx与Web运维/phpMyAdmin-浏览器缓存清理方案.md",
+    "3-资源/Nginx与Web运维/Nginx-负载均衡健康检查与Session保持实验.md",
+    "3-资源/Nginx与Web运维/phpMyAdmin-故障排查思路分层.md",
+    "3-资源/Nginx与Web运维/phpMyAdmin-502故障排查与修复记录.md",
+    "3-资源/办公与工具/Edge-扩展迁移到Chrome.md",
+    "3-资源/办公与工具/开源自托管项目清单.md",
+    "2-领域/实习日报/2026-10-27 公司导航网站使用说明.md",
+    "2-领域/实习日报/2026-10-26 RaiDrive云端文件管理.md",
+    "3-资源/办公与工具/公司导航网站使用说明.md",
+    "4-归档/旧版本/公司导航网站使用说明-v1.md",
+    "3-资源/附件/Pasted image 20261027140813.png",
     "实习/Assets/Pasted image 20261027180529.png",
     "实习/Assets/Pasted image 20261027180504.png",
-    "实习/Assets",
-    "实习/Assets/Pasted image 20261027131325.png",
-    "实习/Assets/Pasted image 20261027131147.png",
-    "Daily-Log",
-    "实习/Assets/Pasted image 20261026165711.png",
-    "实习/Assets/Pasted image 20261026170847.png",
-    "实习"
+    "3-资源/附件/Pasted image 20261027131325.png",
+    "3-资源/附件/Pasted image 20261027131147.png",
+    "3-资源/附件/Pasted image 20261026165711.png",
+    "3-资源/附件/Pasted image 20261026170847.png"
   ]
 }
