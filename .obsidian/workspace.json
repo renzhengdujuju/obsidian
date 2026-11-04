@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5-临时/个人网站搭建.md",
+                "file": "5-临时/简历筛选.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "个人网站搭建"
+              "title": "简历筛选"
             }
           }
         ]
@@ -217,21 +217,24 @@
   },
   "active": "107cf2db5893c7df",
   "lastOpenFiles": [
+    "5-临时/Assets/Pasted image 20261104160217.png",
+    "5-临时/Assets/Pasted image 20261104160145.png",
+    "5-临时/Assets/Pasted image 20261104160134.png",
+    "5-临时/Assets/Pasted image 20261104160111.png",
+    "5-临时/Assets/Pasted image 20261104160056.png",
+    "5-临时/Assets/Pasted image 20261104160017.png",
+    "5-临时/Assets/Pasted image 20261104155944.png",
+    "5-临时/Assets/Pasted image 20261104155929.png",
+    "5-临时/Assets/Pasted image 20261104155911.png",
+    "5-临时/Assets/Pasted image 20261104155749.png",
+    "5-临时/Assets/Pasted image 20261104155648.png",
     "5-临时/未命名.md",
     "5-临时/个人网站搭建.md",
+    "5-临时/简历筛选.md",
+    "5-临时/Assets",
     "3-资源/办公与工具/公司导航网站使用说明.md",
     "3-资源/办公与工具/公司导航网站使用说明.md.tmp.18348.b34bdb730a6a",
-    "3-资源/办公与工具/Assets/Pasted image 20261103190628.png",
-    "3-资源/办公与工具/Assets/Pasted image 20261103190536.png",
     "3-资源/办公与工具/Assets",
-    "3-资源/附件/导航站-04-主页.png",
-    "3-资源/附件/导航站-03-企业微信内打开的提示.png",
-    "3-资源/附件/导航站-01-浏览器输入网址.png",
-    "3-资源/附件/导航站-02-企业微信扫码登录.png",
-    "3-资源/附件/导航站-07-登录页旧图.png",
-    "3-资源/附件/导航站-06-下载客户端安装.png",
-    "3-资源/附件/导航站-05-部署中心入口.png",
-    "3-资源/附件/导航站-04-导航站主页.png",
     "1-项目/SSL证书自动续签/从域名验证到证书认证-完整闭环梳理.md",
     "5-临时",
     "1-项目/SSL证书自动续签/执行方案-乐此加密.md",
@@ -259,9 +262,6 @@
     "面试简历",
     "3-资源/Nginx与Web运维/phpMyAdmin-浏览器缓存清理方案.md",
     "1-项目/SSL证书自动续签/备选方案-阿里云RAM角色.md.tmp.3456.2baede740877",
-    "实习总览.md.tmp.3456.8c43f50eb8d9",
-    "1-项目/SSL证书自动续签/CNAME委派验证原理.md",
-    "1-项目/SSL证书自动续签/环境信息收集清单.md",
-    "1-项目/SSL证书自动续签/方案决策与待确认问题.md"
+    "1-项目/SSL证书自动续签/CNAME委派验证原理.md"
   ]
 }
