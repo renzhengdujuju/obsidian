@@ -13,30 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5-临时/未命名 1.md",
+                "file": "5-临时/未命名.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "未命名 1"
-            }
-          },
-          {
-            "id": "a9e6029ef931b409",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3-资源/办公与工具/公司导航网站使用说明.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "公司导航网站使用说明"
+              "title": "未命名"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -230,13 +215,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a9e6029ef931b409",
+  "active": "107cf2db5893c7df",
   "lastOpenFiles": [
+    "5-临时/未命名 1.md",
+    "5-临时/未命名.md",
+    "3-资源/办公与工具/公司导航网站使用说明.md",
+    "3-资源/办公与工具/公司导航网站使用说明.md.tmp.18348.b34bdb730a6a",
     "3-资源/办公与工具/Assets/Pasted image 20261103190628.png",
     "3-资源/办公与工具/Assets/Pasted image 20261103190536.png",
     "3-资源/办公与工具/Assets",
-    "5-临时/未命名 1.md",
-    "5-临时/未命名.md",
     "3-资源/附件/导航站-04-主页.png",
     "3-资源/附件/导航站-03-企业微信内打开的提示.png",
     "3-资源/附件/导航站-01-浏览器输入网址.png",
@@ -245,7 +232,6 @@
     "3-资源/附件/导航站-06-下载客户端安装.png",
     "3-资源/附件/导航站-05-部署中心入口.png",
     "3-资源/附件/导航站-04-导航站主页.png",
-    "3-资源/附件/导航站-03-浏览器输入网址.png",
     "1-项目/SSL证书自动续签/从域名验证到证书认证-完整闭环梳理.md",
     "5-临时",
     "1-项目/SSL证书自动续签/执行方案-乐此加密.md",
@@ -275,7 +261,6 @@
     "1-项目/SSL证书自动续签/备选方案-阿里云RAM角色.md.tmp.3456.2baede740877",
     "实习总览.md.tmp.3456.8c43f50eb8d9",
     "1-项目/SSL证书自动续签/CNAME委派验证原理.md",
-    "实习总览.md.tmp.3456.cb0efc70bb5f",
     "1-项目/SSL证书自动续签/环境信息收集清单.md",
     "1-项目/SSL证书自动续签/方案决策与待确认问题.md"
   ]
