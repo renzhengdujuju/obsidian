@@ -20,8 +20,37 @@
               "icon": "lucide-file",
               "title": "实战记录-RAM子账号AK方案"
             }
+          },
+          {
+            "id": "1b9f9ace49d4ec40",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "5-临时/未命名 2.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "未命名 2"
+            }
+          },
+          {
+            "id": "afb320864b61493f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "file:C:/Users/DZ-05-001/.zcode/workspace/4dce18d7-080f-46ea-b180-7419c359e27b/Certbot-LetsEncrypt-Nginx自动签发续签操作文档.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Certbot-LetsEncrypt-Nginx自动签发续签操作文档"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -215,12 +244,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "107cf2db5893c7df",
+  "active": "afb320864b61493f",
   "lastOpenFiles": [
+    "5-临时/未命名 2.md",
+    "file:C:/Users/DZ-05-001/.zcode/workspace/4dce18d7-080f-46ea-b180-7419c359e27b/Certbot-LetsEncrypt-Nginx自动签发续签操作文档.md",
+    "1-项目/SSL证书自动续签/实战记录-RAM子账号AK方案.md",
+    "5-临时/未命名.md",
+    "5-临时/未命名 1.md",
     "1-项目/SSL证书自动续签/备选方案-阿里云RAM角色.md",
     "1-项目/SSL证书自动续签/未命名.md",
     "实习总览.md.tmp.44148.cf060eda4cba",
-    "1-项目/SSL证书自动续签/实战记录-RAM子账号AK方案.md",
     "1-项目/SSL证书自动续签/Assets/Pasted image 20261105123421.png",
     "1-项目/SSL证书自动续签/Assets/Pasted image 20261105123409.png",
     "1-项目/SSL证书自动续签/Assets/Pasted image 20261105123352.png",
@@ -232,8 +265,6 @@
     "1-项目/SSL证书自动续签/Assets/Pasted image 20261105122526.png",
     "1-项目/SSL证书自动续签/Assets/Pasted image 20261105122246.png",
     "1-项目/SSL证书自动续签/Assets/千问-阿里 AI 助手.html",
-    "5-临时/未命名 1.md",
-    "5-临时/未命名.md",
     "实习总览.md.tmp.30688.3e2dcbcdb748",
     "面试简历/面试简历筛选结果.md",
     "4-归档/旧版本/RTL8127-驱动适配实战记录-v1.md",
@@ -260,7 +291,6 @@
     "3-资源/Nginx与Web运维/phpMyAdmin-故障排查思路分层.md",
     "3-资源/系统与硬件/Windows11-重装指南.md",
     "3-资源/GitLab与容器化/GitLab-Runner-Docker部署与排错.md",
-    "3-资源/GitLab与容器化/GitLab-对接RustFS对象存储.md",
-    "3-资源/系统与硬件/RTL8127-万兆网卡驱动编译实战.md"
+    "3-资源/GitLab与容器化/GitLab-对接RustFS对象存储.md"
   ]
 }
