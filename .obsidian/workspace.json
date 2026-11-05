@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1-项目/SSL证书自动续签/备选方案-阿里云RAM角色.md",
+                "file": "1-项目/SSL证书自动续签/实战记录-RAM子账号AK方案.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "备选方案-阿里云RAM角色"
+              "title": "实战记录-RAM子账号AK方案"
             }
           }
         ]
@@ -215,8 +215,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d0628e8a94344045",
+  "active": "107cf2db5893c7df",
   "lastOpenFiles": [
+    "1-项目/SSL证书自动续签/备选方案-阿里云RAM角色.md",
+    "1-项目/SSL证书自动续签/未命名.md",
     "实习总览.md.tmp.44148.cf060eda4cba",
     "1-项目/SSL证书自动续签/实战记录-RAM子账号AK方案.md",
     "1-项目/SSL证书自动续签/Assets/Pasted image 20261105123421.png",
@@ -230,8 +232,6 @@
     "1-项目/SSL证书自动续签/Assets/Pasted image 20261105122526.png",
     "1-项目/SSL证书自动续签/Assets/Pasted image 20261105122246.png",
     "1-项目/SSL证书自动续签/Assets/千问-阿里 AI 助手.html",
-    "1-项目/SSL证书自动续签/备选方案-阿里云RAM角色.md",
-    "1-项目/SSL证书自动续签/未命名.md",
     "5-临时/未命名 1.md",
     "5-临时/未命名.md",
     "实习总览.md.tmp.30688.3e2dcbcdb748",
@@ -253,7 +253,6 @@
     "3-资源/办公与工具/公司导航网站使用说明.md",
     "3-资源/办公与工具/公司导航网站使用说明.md.tmp.18348.b34bdb730a6a",
     "3-资源/办公与工具/Assets",
-    "5-临时",
     "1-项目/SSL证书自动续签/执行方案-乐此加密.md",
     "实习总览.md",
     "3-资源/Nginx与Web运维/Nginx-负载均衡健康检查与Session保持实验.md",
