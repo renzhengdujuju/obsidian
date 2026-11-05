@@ -603,7 +603,7 @@ crontab -l | grep -v acme.sh | crontab -
 ### 12.1 权限不够时的替代方案
 
 - **让主账号协助（推荐）**：第 1~3 步（创建角色/策略/绑定）让有主账号的同事做，之后的步骤你在服务器上独立完成
-- **退而求其次**：建一个只授 Alidns 权限的 RAM 用户，用它的 AccessKey 配合 acme.sh 自带 `dns_ali` 插件（`export Ali_Key=... Ali_Secret=...`）。缺点：长期密码存在服务器上，安全性不如工牌，需 `chmod 600` 并定期轮换
+- **退而求其次**：建一个只授 Alidns 权限的 RAM 用户，用它的 AccessKey 配合 acme.sh 自带 `dns_ali` 插件（`export Ali_Key=... Ali_Secret=...`）。缺点：长期密码存在服务器上，安全性不如工牌，需 `chmod 600` 并定期轮换。✅ **这条路线已在 2026-11-05 实战跑通，全过程见 [[实战记录-RAM子账号AK方案|实战记录：RAM子账号AK方案]]**，与主路线的详细对比见该文末尾
 - **跨账号**（域名和 ECS 不同账号）：ECS 工牌只能管本账号 DNS，跨账号要么用对方账号的 RAM 用户 AK，要么走 RAM 跨账号信任（复杂，不推荐为这事上）
 - **连 RAM 权限都没有**：只能走乐此加密，或把 DNS 迁到 Cloudflare/DNSPod 用它们的 API
 

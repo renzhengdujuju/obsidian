@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1-项目/SSL证书自动续签/未命名.md",
+                "file": "1-项目/SSL证书自动续签/备选方案-阿里云RAM角色.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "未命名"
+              "title": "备选方案-阿里云RAM角色"
             }
           }
         ]
@@ -215,17 +215,26 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "107cf2db5893c7df",
+  "active": "d0628e8a94344045",
   "lastOpenFiles": [
-    "1-项目/SSL证书自动续签/Assets/Pasted image 20261105115251.png",
+    "实习总览.md.tmp.44148.cf060eda4cba",
+    "1-项目/SSL证书自动续签/实战记录-RAM子账号AK方案.md",
+    "1-项目/SSL证书自动续签/Assets/Pasted image 20261105123421.png",
+    "1-项目/SSL证书自动续签/Assets/Pasted image 20261105123409.png",
+    "1-项目/SSL证书自动续签/Assets/Pasted image 20261105123352.png",
+    "1-项目/SSL证书自动续签/Assets/Pasted image 20261105123343.png",
+    "1-项目/SSL证书自动续签/Assets/Pasted image 20261105123323.png",
+    "1-项目/SSL证书自动续签/Assets/Pasted image 20261105122638.png",
+    "1-项目/SSL证书自动续签/Assets/Pasted image 20261105122611.png",
+    "1-项目/SSL证书自动续签/Assets/Pasted image 20261105122603.png",
+    "1-项目/SSL证书自动续签/Assets/Pasted image 20261105122526.png",
+    "1-项目/SSL证书自动续签/Assets/Pasted image 20261105122246.png",
     "1-项目/SSL证书自动续签/Assets/千问-阿里 AI 助手.html",
     "1-项目/SSL证书自动续签/备选方案-阿里云RAM角色.md",
     "1-项目/SSL证书自动续签/未命名.md",
     "5-临时/未命名 1.md",
     "5-临时/未命名.md",
     "实习总览.md.tmp.30688.3e2dcbcdb748",
-    "1-项目/SSL证书自动续签/Assets/Pasted image 20261104160440.png",
-    "1-项目/SSL证书自动续签/Assets/Pasted image 20261104160410.png",
     "面试简历/面试简历筛选结果.md",
     "4-归档/旧版本/RTL8127-驱动适配实战记录-v1.md",
     "4-归档/旧版本/RTL8127-驱动安装指南-CentOS定制包版.md",
@@ -239,15 +248,7 @@
     "1-项目/SSL证书自动续签/从域名验证到证书认证-完整闭环梳理.md",
     "1-项目/SSL证书自动续签/Assets",
     "5-临时/网站全过程.md",
-    "1-项目/SSL证书自动续签/Assets/Pasted image 20261104172206.png",
-    "1-项目/SSL证书自动续签/Assets/Pasted image 20261104170119.png",
     "5-临时/个人网站搭建.md.tmp.31108.fa4c4eaf105c",
-    "1-项目/SSL证书自动续签/Assets/Pasted image 20261104160838.png",
-    "1-项目/SSL证书自动续签/Assets/Pasted image 20261104160812.png",
-    "1-项目/SSL证书自动续签/Assets/Pasted image 20261104160656.png",
-    "1-项目/SSL证书自动续签/Assets/Pasted image 20261104160642.png",
-    "1-项目/SSL证书自动续签/Assets/Pasted image 20261104160625.png",
-    "1-项目/SSL证书自动续签/Assets/Pasted image 20261104160604.png",
     "5-临时/Assets",
     "3-资源/办公与工具/公司导航网站使用说明.md",
     "3-资源/办公与工具/公司导航网站使用说明.md.tmp.18348.b34bdb730a6a",
@@ -261,7 +262,6 @@
     "3-资源/系统与硬件/Windows11-重装指南.md",
     "3-资源/GitLab与容器化/GitLab-Runner-Docker部署与排错.md",
     "3-资源/GitLab与容器化/GitLab-对接RustFS对象存储.md",
-    "3-资源/系统与硬件/RTL8127-万兆网卡驱动编译实战.md",
-    "2026-11-02.md"
+    "3-资源/系统与硬件/RTL8127-万兆网卡驱动编译实战.md"
   ]
 }
