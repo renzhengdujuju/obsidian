@@ -41,16 +41,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5-临时/auto_certbot.sh.md",
+                "file": "5-临时/未命名 3.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "auto_certbot.sh"
+              "title": "未命名 3"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -244,10 +244,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1b9f9ace49d4ec40",
+  "active": "afb320864b61493f",
   "lastOpenFiles": [
-    "1-项目/SSL证书自动续签/个人网站搭建.md",
+    "file:C:/Users/DZ-05-001/Desktop/git.md",
+    "5-临时/未命名 3.md",
     "5-临时/未命名 2.md",
+    "1-项目/SSL证书自动续签/个人网站搭建.md",
     "5-临时/auto_certbot.sh.md",
     "5-临时/auto_acme_alpn.sh.md",
     "file:C:/Users/DZ-05-001/.zcode/workspace/4dce18d7-080f-46ea-b180-7419c359e27b/Certbot-LetsEncrypt-Nginx自动签发续签操作文档.md",
@@ -289,8 +291,6 @@
     "1-项目/SSL证书自动续签/执行方案-乐此加密.md",
     "实习总览.md",
     "3-资源/Nginx与Web运维/Nginx-负载均衡健康检查与Session保持实验.md",
-    "3-资源/Nginx与Web运维/phpMyAdmin-502故障排查与修复记录.md",
-    "3-资源/Nginx与Web运维/phpMyAdmin-故障排查思路分层.md",
-    "3-资源/系统与硬件/Windows11-重装指南.md"
+    "3-资源/Nginx与Web运维/phpMyAdmin-502故障排查与修复记录.md"
   ]
 }
