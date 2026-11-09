@@ -1,5 +1,10 @@
 
 # Certbot 在阿里云 ECS 上申请 SSL 证书踩坑笔记
+
+> **日期**：2026-11-09　**结果**：⚠️ HTTP-01 验证受阻（阿里云对 Let's Encrypt 多视角验证节点返回空响应），最终改用 DNS-01 手动模式续命
+> **前情**：从 [[07-实战记录-RAM子账号AK方案|acme.sh AK 方案]] 切换到 Certbot 尝试 HTTP-01 自动续签
+> **后续**：这次受阻直接引出了 [[06-方案探索-CloudflareTunnel隧道|Cloudflare Tunnel 隧道]] 的调研（不依赖 80 端口验证、也不依赖阿里云 DNS API 的新路线）
+
 ## 一、环境信息
 - 系统：Alibaba Cloud Linux 3 (OpenAnolis Edition)
 - Web 服务器：Nginx 1.24.0（yum 安装）
@@ -191,8 +196,10 @@ sudo certbot certonly --manual \
 
 - 配置 certbot 的阿里云 DNS API 插件
     
-- 或换回 acme.sh 配合阿里云 DNS API（对国内 DNS 服务商支持更成熟）
+- 或换回 acme.sh 配合阿里云 DNS API（对国内 DNS 服务商支持更成熟，即 [[实战记录-RAM子账号AK方案|RAM 子账号 AK 方案]] 已跑通的路线）
     
+
+➡️ 另外，正因为 HTTP-01 在当前网络环境下走不通，下一步调研了完全绕开"80 端口验证 + 阿里云 DNS API"的新路线：[[方案探索-CloudflareTunnel隧道|Cloudflare Tunnel 隧道]]（证书在 CF 边缘，服务器零证书零端口）。
 
 ---
 

@@ -1,6 +1,6 @@
 # acme.sh + 阿里云 DNS AccessKey 方案（已归档）
 
-> 此方案使用长期 AccessKey/Secret，安全性不如 ECS RAM 角色，已归档。当前推荐 [[备选方案-阿里云RAM角色|阿里云 RAM 角色 + acme.sh]]。
+> 此方案使用长期 AccessKey/Secret，安全性不如 ECS RAM 角色，已归档。当前推荐 [[05-备选方案-阿里云RAM角色|阿里云 RAM 角色 + acme.sh]]。
 
 ## 一、操作步骤
 
