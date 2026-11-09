@@ -209,13 +209,15 @@
                   "version": 1,
                   "openTabs": [
                     {
-                      "tabId": "tab-1794070518146-h1o7o9z",
-                      "conversationId": null,
-                      "draftModel": "deepseek:deepseek-account/deepseek-flash",
-                      "providerId": "deepseek"
+                      "tabId": "tab-1793086221586-9sjpsxf",
+                      "conversationId": "conv-1793599320743-v1t0atkvj"
+                    },
+                    {
+                      "tabId": "tab-1793610897079-4bzwudm",
+                      "conversationId": "conv-1793610943546-lstspji0d"
                     }
                   ],
-                  "activeTabId": "tab-1794070518146-h1o7o9z"
+                  "activeTabId": "tab-1793086221586-9sjpsxf"
                 }
               },
               "icon": "bot",
@@ -231,7 +233,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-git:Open Git source control": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -239,7 +240,8 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "bases:新建数据库": false,
-      "realclaudian:Open Claudian": false
+      "realclaudian:Open Claudian": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "afb320864b61493f",
