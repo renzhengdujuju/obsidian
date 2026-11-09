@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "file:C:/test1/README.md",
+                "file": "5-临时/未命名.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "未命名"
             }
           }
         ],
@@ -211,7 +211,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -230,10 +230,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "63df6a8a05437875",
+  "active": "8d72896a88e0bc56",
   "lastOpenFiles": [
-    "5-临时/未命名.md",
     "5-临时/未命名 1.md",
+    "file:C:/test1/README.md",
+    "5-临时/未命名.md",
     "1-项目/SSL证书自动续签/06-方案探索-CloudflareTunnel隧道.md",
     "1-项目/SSL证书自动续签/备选方案-阿里云RAM角色.md.tmp.38172.33c135495164",
     "1-项目/SSL证书自动续签/执行方案-Certbot.md.tmp.38172.d3bc86f7e210",
