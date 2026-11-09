@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5-临时/未命名 3.md",
+                "file": "1-项目/SSL证书自动续签/从域名验证到证书认证-完整闭环梳理.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "未命名 3"
+              "title": "从域名验证到证书认证-完整闭环梳理"
             }
           }
         ],
@@ -246,8 +246,9 @@
   },
   "active": "afb320864b61493f",
   "lastOpenFiles": [
-    "file:C:/Users/DZ-05-001/Desktop/git.md",
+    "1-项目/SSL证书自动续签/实战记录-Certbot+HTTP-01方案.md",
     "5-临时/未命名 3.md",
+    "file:C:/Users/DZ-05-001/Desktop/git.md",
     "5-临时/未命名 2.md",
     "1-项目/SSL证书自动续签/个人网站搭建.md",
     "5-临时/auto_certbot.sh.md",
@@ -257,7 +258,6 @@
     "5-临时/未命名.md",
     "5-临时/未命名 1.md",
     "1-项目/SSL证书自动续签/备选方案-阿里云RAM角色.md",
-    "1-项目/SSL证书自动续签/未命名.md",
     "实习总览.md.tmp.44148.cf060eda4cba",
     "1-项目/SSL证书自动续签/Assets/Pasted image 20261105123421.png",
     "1-项目/SSL证书自动续签/Assets/Pasted image 20261105123409.png",
