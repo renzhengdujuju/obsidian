@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5-临时/未命名 1.md",
+                "file": "5-临时/未命名.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "未命名 1"
+              "title": "未命名"
             }
           }
         ]
@@ -217,9 +217,13 @@
   },
   "active": "107cf2db5893c7df",
   "lastOpenFiles": [
-    "实习总览.md.tmp.56008.e22facb32694",
-    "5-临时/未命名.md",
+    "5-临时/Assets/Pasted image 20261109132245.png",
+    "5-临时/Assets/Pasted image 20261109132039.png",
+    "5-临时/Assets/Pasted image 20261109132024.png",
+    "5-临时/Assets",
     "5-临时/未命名 1.md",
+    "5-临时/未命名.md",
+    "实习总览.md.tmp.56008.e22facb32694",
     "1-项目/SSL证书自动续签/执行方案-Certbot.md",
     "1-项目/SSL证书自动续签/从域名验证到证书认证-完整闭环梳理.md",
     "1-项目/SSL证书自动续签/实战记录-RAM子账号AK方案.md",
@@ -244,8 +248,6 @@
     "1-项目/SSL证书自动续签/Assets/Pasted image 20261105122638.png",
     "1-项目/SSL证书自动续签/Assets/Pasted image 20261105122611.png",
     "1-项目/SSL证书自动续签/Assets/Pasted image 20261105122603.png",
-    "1-项目/SSL证书自动续签/Assets/Pasted image 20261105122526.png",
-    "1-项目/SSL证书自动续签/Assets/Pasted image 20261105122246.png",
     "1-项目/SSL证书自动续签/Assets/千问-阿里 AI 助手.html",
     "实习总览.md.tmp.30688.3e2dcbcdb748",
     "面试简历/面试简历筛选结果.md",
@@ -260,8 +262,6 @@
     "1-项目/SSL证书自动续签/Assets",
     "5-临时/网站全过程.md",
     "5-临时/个人网站搭建.md.tmp.31108.fa4c4eaf105c",
-    "5-临时/Assets",
-    "3-资源/办公与工具/公司导航网站使用说明.md",
-    "3-资源/办公与工具/公司导航网站使用说明.md.tmp.18348.b34bdb730a6a"
+    "3-资源/办公与工具/公司导航网站使用说明.md"
   ]
 }
